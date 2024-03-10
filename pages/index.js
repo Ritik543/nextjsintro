@@ -13,6 +13,7 @@ export default function Home() {
   }
   return (
     <div className={styles.container}>
+      <h1>updated</h1>
       <h1>hello {session?.data?.user?.name}</h1>
       <button onClick={signOut}>logout</button>
 
